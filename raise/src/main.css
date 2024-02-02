@@ -1,0 +1,32 @@
+.bd{
+    background-color:#dcf6f9;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:1800px;
+}
+.searchBoxStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 90px;
+    margin-bottom: 20px;
+}
+.inputStyle {
+    padding: 19px;
+    border-radius: 38px;
+    width:560px;
+    height:36px;
+    font-size:32.6px;
+}
+.buttonStyle{
+    padding: 33px;
+    cursor: pointer;
+    /* height:32px; */
+    /* width:16px; */
+    background-size: cover;
+    border-radius:5px;
+}
+

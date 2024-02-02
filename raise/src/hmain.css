@@ -1,0 +1,136 @@
+.hmainbody{
+    background-color: #dcf6f9;
+    min-height: 100vh;
+}
+.chimage{
+    width:290px;
+    height:350px;
+    margin:30px;
+    margin-top: 60px;
+}
+.drimage{
+    width:290px;
+    height:350px;
+    margin:30px;
+    display:flex;
+    margin-right: 30px;
+}
+.upper{
+    display:flex;
+}
+.raisecapname{
+    font-size: 60px;
+    display:flex;
+    justify-content: center;
+}
+.contribution{
+    display: flex;
+    justify-content: center;
+    font-size:30px ;
+}
+.dataline{
+    width:900px;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    font-size: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttons{
+    width:560px;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding:10px 20px;
+    padding-left: 92px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.data{
+    width: 900px;
+}
+.middle{
+    display:flex;
+    justify-content: flex-end;
+    margin:20px;
+    padding:30px;
+}
+.lower{
+    font-family: Arial, sans-serif;
+    /* margin-bottom: 10px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+}
+.boxes{
+    display:flex;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+}
+.eachbox{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.box {
+    width: 700px;
+    height:200px;
+    padding: 9px;
+    margin: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    background-color: #007ab6;
+    align-items: center;
+    border-radius: 100px;
+}
+.icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.text{
+    display:flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.sixoptions{
+    font-size: 30px;
+    font-family:Verdana;
+    font-weight: 410;
+}
+.threebtn{
+    width:209px;
+    height:54px;
+    background-color:#0090b6;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    cursor: pointer;
+    margin:34px ;
+    margin-top: 20px;
+}
+.middleline{
+    font-size: 50px;
+    font-weight: bold;
+    /* font-family:'Helvetica',Arial,sans-serif ; */
+    display:flex;
+    padding-right: 0px;
+    margin-right: 100px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

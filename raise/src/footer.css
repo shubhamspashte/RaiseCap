@@ -1,0 +1,55 @@
+.footer{
+    background-color: #007AB6;
+    height: 530px;
+    padding: '1rem';
+}
+.flogo{
+    height:80px;
+    width:80px;
+}
+
+.s{
+    color:black;
+    font-size:35px;
+    display: flex;
+    padding-left: 11px;
+    margin-left: 20px;
+}
+.o{
+    color:black;
+    text-decoration:none ;
+    font-size:30px;
+    display: flex;
+    padding-left: 25px;
+    margin:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.c{
+    margin: 8px;
+}
+
+hr{
+    border: 0.8px solid black;
+}
+.contact{
+    margin: 3px;
+    padding:3px;
+    display:flex;
+    
+}
+.logo{
+    margin: 8px;
+    padding: 3px;
+}
+.para{
+    margin:10px;
+    padding-left: 20px;
+    font-size: 24px; 
+    font-weight: bold;
+    margin-left: 148px;
+    text-align: center;
+}
+.p{
+    color:black
+}
