@@ -1,0 +1,257 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+} */
+
+.startcontainer {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.startnavbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+/* .logo {
+    width: 150px;
+    cursor: pointer;
+    margin: 30px 0;
+} */
+
+.startmenu-logo {
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.startnav {
+    flex: 1;
+    text-align: right;
+}
+
+.startnav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.startnav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.startnav ul li a:hover {
+    color: #ff5ea2;
+}
+
+.startrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.startcol-1 {
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.startcol-1 h2 {
+    font-size: 54px;
+}
+
+.startcol-1 h3 {
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+
+/* .col-1 p{
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 100;
+    color: #b7b7b7;
+}
+
+.col-1 h4{
+    margin: 30px 0;
+    font-size: 20px;
+} */
+
+#btnindividual {
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #4d70b3, #2e09a6);
+    border-radius: 9px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+#btnindividual img {
+    width: 30px;
+    display: none;
+}
+
+#btnindividual:hover img {
+    display: block;
+}
+
+#btnindividual:hover {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#btnorganization {
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #4d70b3, #2e09a6);
+    border-radius: 9px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+#btnorganization img {
+    width: 30px;
+    display: none;
+}
+
+#btnorganization:hover img {
+    display: block;
+}
+
+#btnorganization:hover {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.startcol-1::after {
+    content: '';
+    width: 10px;
+    height: 45%;
+    background: linear-gradient(#4d70b3, #2e09a6);
+    position: absolute;
+    left: -40px;
+    top: 8px;
+}
+
+.startcol-2 {
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.startcol-2 .startchildrenimage {
+    width: 90%;
+}
+
+.startcolor-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: linear-gradient(#4d70b3, #2e09a6);
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    width: 95%;
+    z-index: -1;
+    transform: translateX(250px);
+}
+
+.startquotes {
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.social-links img {
+    height: 13px;
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+.social-links {
+    text-align: center;
+}
+
+@media only screen and (max-width:700px) {
+    .startnav ul {
+        width: 100%;
+        background: linear-gradient(#4d70b3, #2e09a6);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    .startnav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .startnav ul li a {
+        color: #fff;
+    }
+
+    .startmenu-logo {
+        display: block;
+    }
+
+    #menuList {
+        overflow: hidden;
+        transition: .5s;
+    }
+
+    .startrow {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    .startcol-2 {
+        flex-basis: 100%;
+        margin: 50px 0;
+    }
+
+    .startcol-2 .childrens {
+        width: 77%;
+    }
+
+    .startcolor-box {
+        transform: translateX(75px);
+    }
+
+    .startcol-1 {
+        flex-basis: 100%;
+    }
+
+    .startcol-1 h2 {
+        font-size: 35px;
+    }
+
+    .startcol-1 h3 {
+        font-size: 15px;
+    }
+}

@@ -19,15 +19,15 @@ const LoginPage = () => {
 };
 
 return (
-    <div>
+    <div className='loginbody'>
         <h2>Login</h2>
-        <form>
-        <label>
+        <form className='loginform'>
+        <label className='loginlabel'>
             Email:
-            <input type="email" value={email} onChange={handleEmailChange} />
+            <input className='logininput'type="email" value={email} onChange={handleEmailChange} />
         </label>
         <br />
-        <label>
+        <label className='loginlabel'>
             Password:
             <input type="password" value={password} onChange={handlePasswordChange} />
         </label>

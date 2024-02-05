@@ -1,5 +1,6 @@
 .hmainbody{
-    background-color: #dcf6f9;
+    /* background-color: #dcf6f9; */
+    background-color: white;
     min-height: 100vh;
 }
 .chimage{
@@ -75,7 +76,7 @@
     margin-bottom: 30px;
     justify-content: center;
 }
-.box {
+.hbox {
     width: 700px;
     height:200px;
     padding: 9px;
@@ -84,7 +85,8 @@
     border: 1px solid #ccc;
     text-align: center;
     display: flex;
-    background-color: #007ab6;
+    /* background-color: #007ab6; */
+    background-color: #4d22ce;
     align-items: center;
     border-radius: 100px;
 }
@@ -125,7 +127,6 @@
 .middleline{
     font-size: 50px;
     font-weight: bold;
-    /* font-family:'Helvetica',Arial,sans-serif ; */
     display:flex;
     padding-right: 0px;
     margin-right: 100px;

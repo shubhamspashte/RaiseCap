@@ -14,7 +14,7 @@ const Grid = () => {
 );
 };
 
-const App = () => {
+const Newapp = () => {
     return (
         <div>
             <div className='ar'>
@@ -28,4 +28,4 @@ const App = () => {
         </div>
 );
 };
-export default App;
+export default Newapp;

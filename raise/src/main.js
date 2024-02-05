@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './main.css';
 import Categories from './categories';
-import App from './grid'
+import Newapp from './grid'
 
 const Main = () => {
 
@@ -28,7 +28,7 @@ return (
             </button>
         </div> 
         <Categories/> 
-        <App/>  
+        <Newapp/>  
     </div>
 
 )
