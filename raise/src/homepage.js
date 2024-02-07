@@ -1,5 +1,6 @@
 import React from 'react';
 import './homepage.css';
+import { Link } from 'react-router-dom';
 const Homepage = () => {
 return (
     <div className='hmainbody'>
@@ -10,10 +11,10 @@ return (
                 <h3 className='contribution'>Your contribution counts!!</h3>
                 <p className='dataline'>The platform that empowers individuals and <br/>communities to transform dreams into reality!</p>
                 <div  className='buttons'>
-                    <a href='./start'><button className="threebtn">Start a Campaign</button></a>
-                    <a href='./browse'><button className="threebtn">Browse Campaign</button></a>
+                    <Link to='./start'><button className="threebtn">Start a Campaign</button></Link>
+                    <Link to='./browse'><button className="threebtn">Browse Campaign</button></Link>
                     <br/>
-                    <a href='https://www.youtube.com/'><button className="threebtn">Blogs</button></a>
+                    <Link to='https://www.youtube.com/'><button className="threebtn">Blogs</button></Link>
                 </div>
             </div>
         </div>

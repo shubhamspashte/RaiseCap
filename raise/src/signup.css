@@ -1,7 +1,7 @@
 .signupbody{
     max-width: 400px;
     margin: auto;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -13,7 +13,7 @@
 }
 
 .signuplabel {
-    margin-bottom: 8px;
+    margin-bottom: 1px;
 }
 
 .signupinput {

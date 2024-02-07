@@ -22,7 +22,7 @@ return (
                 placeholder="Search a Campaign"
                 value={searchTerm}
                 onChange={handleInputChange}
-                className='inputStyle'/>
+                className='inputStyle' />
             <button 
                 onClick={handleSearch} className='buttonStyle' style={{backgroundImage:'url("/mg.png")'}}>         
             </button>

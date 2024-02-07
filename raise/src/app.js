@@ -5,6 +5,8 @@ import Browse from './browseacampaign';
 import LoginPage from './login';
 import SignupPage from './signup';
 import Start from './start';
+import OFormComponent from './oform';
+import IFormComponent from './iform';
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
 
 function App(){
@@ -13,11 +15,13 @@ function App(){
             <BrowserRouter>
                 <Navbar/>
                 <Routes>
-                    <Route path='/' element={<Homepage/>}/>
-                    <Route path='/Browse' element={<Browse/>}/>
-                    <Route path='Loginpage' element={<LoginPage/>}/>
-                    <Route path='Signuppage' element={<SignupPage/>}/>
-                    <Route path='Start'  element={<Start/>}/>
+                    <Route exact path='/' element={<Homepage/>}/>
+                    <Route exact path='/Browse' element={<Browse/>}/>
+                    <Route exact path='Loginpage' element={<LoginPage/>}/>
+                    <Route exact path='Signuppage' element={<SignupPage/>}/>
+                    <Route exact path='Start'  element={<Start/>}/>
+                    <Route exact path='OFormComponent' element={<OFormComponent/>}/>
+                    <Route exact path='IFormComponent' element={<IFormComponent/>}/>
                 </Routes>
                 <Footer/>
             </BrowserRouter>

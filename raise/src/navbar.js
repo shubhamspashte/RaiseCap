@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import './navbar.css';
-// import {link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -21,8 +21,8 @@ return (
             </div>
             <div className="options-container">
                 <div className="options">
-                    <a className='option' href="./Loginpage">Log In</a>
-                    <a className='option' href="./Signuppage">Sign Up</a>
+                    <Link className='option' to="./Loginpage">Log In</Link>
+                    <Link className='option' to="./Signuppage">Sign Up</Link>
                 </div>
                 <div className={`burger-menu ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                     <div className="line"></div>
@@ -31,10 +31,10 @@ return (
                 </div>
                 {menuOpen && (
                     <div className="menu-options">
-                        <a className='menuoptions' href="https://www.youtube.com/" onClick={closeMenu}>Start a campaign</a>
-                        <a className='menuoptions' href="./browse" onClick={closeMenu}>Browse a campaign</a>
-                        <a className='menuoptions' href="https://www.youtube.com/" onClick={closeMenu}>Blogs</a>
-                        <a className='menuoptions' href="https://www.youtube.com/" onClick={closeMenu}>Profile</a>
+                        <Link className='menuoptions' to="./start" onClick={closeMenu}>Start a campaign</Link>
+                        <Link className='menuoptions' to="./browse" onClick={closeMenu}>Browse a campaign</Link>
+                        <Link className='menuoptions' to="https://www.youtube.com/" onClick={closeMenu}>Blogs</Link>
+                        <Link className='menuoptions' to="https://www.youtube.com/" onClick={closeMenu}>Profile</Link>
                     </div>
                 )}
             </div>

@@ -195,6 +195,12 @@
     text-align: center;
 }
 
+.startline{
+    font-size: 43px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
+
 @media only screen and (max-width:700px) {
     .startnav ul {
         width: 100%;
