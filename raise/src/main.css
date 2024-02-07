@@ -25,8 +25,6 @@
 .buttonStyle{
     padding: 33px;
     cursor: pointer;
-    /* height:32px; */
-    /* width:16px; */
     background-size: cover;
     border-radius:5px;
 }

@@ -18,10 +18,13 @@ return (
                 </div>
             </div>
         </div>
+        <marquee scrolldelay='0'>
         <div className='middle'>
             <h3 className='middleline'>Start your Fundraising journey with us<br/>Now with 0%* fees </h3>
             <img className='drimage' src='/dr.jpg' alt='img'></img>
         </div>
+        </marquee>
+  
         <div className='lower'>
             <h1 className='text'>What RaiseCap offer?</h1>
             <div className="boxes">
