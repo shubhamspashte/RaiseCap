@@ -1,0 +1,29 @@
+.blog-page {
+    padding: 20px;
+}
+
+.campaigns-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.campaign {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.campaign img {
+    width: 100%;
+    height: auto;
+}
+
+.campaign h2 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.campaign p {
+    margin: 10px;
+}

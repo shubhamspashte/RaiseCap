@@ -3,8 +3,7 @@
     justify-content:space-between;
     align-items: center;
     padding: 10px;
-    /* background-color: #007ab6; */
-    background-color: #2f09a6;
+    background-color: #007ab6;
     height:31px;
     color: white;
 }
@@ -32,12 +31,13 @@
 }
 
 .option{
+    font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     color: white;
     margin: 10px 10px;
     padding-right: 22px;
-    font-size: 23px;
-    font-weight: 700;
+    font-size: 16px;
+    /* font-weight: 700; */
 }
 
 .head {

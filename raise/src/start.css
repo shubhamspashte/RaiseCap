@@ -19,34 +19,28 @@
     align-items: center;
 }
 
-/* .logo {
-    width: 150px;
-    cursor: pointer;
-    margin: 30px 0;
-} */
-
-.startmenu-logo {
+/* .startmenu-logo {
     width: 25px;
     cursor: pointer;
     display: none;
-}
+} */
 
-.startnav {
+/* .startnav {
     flex: 1;
     text-align: right;
-}
+} */
 
-.startnav ul li {
+/* .startnav ul li {
     list-style: none;
     display: inline-block;
     margin-right: 30px;
-}
+} */
 
-.startnav ul li a {
+/* .startnav ul li a {
     text-decoration: none;
     color: #000;
     font-size: 14px;
-}
+} */
 
 .startnav ul li a:hover {
     color: #ff5ea2;
@@ -75,26 +69,13 @@
     font-weight: 100;
     margin: 20px 0 10px;
 }
-
-/* .col-1 p{
-    margin: 10px 0;
-    font-size: 16px;
-    font-weight: 100;
-    color: #b7b7b7;
-}
-
-.col-1 h4{
-    margin: 30px 0;
-    font-size: 20px;
-} */
-
 #btnindividual {
     width: 140px;
     border: 0;
     padding: 12px 10px;
     outline: none;
     color: #fff;
-    background: linear-gradient(to right, #4d70b3, #2e09a6);
+    background: linear-gradient(to right, #77d9ed,#007ab6);
     border-radius: 9px;
     cursor: pointer;
     transition: width 0.5s;
@@ -115,52 +96,45 @@
     align-items: center;
     justify-content: space-between;
 }
-
 #btnorganization {
     width: 140px;
     border: 0;
     padding: 12px 10px;
     outline: none;
     color: #fff;
-    background: linear-gradient(to right, #4d70b3, #2e09a6);
+    background: linear-gradient(to right, #77d9ed, #007ab6);
     border-radius: 9px;
     cursor: pointer;
     transition: width 0.5s;
 }
-
 #btnorganization img {
     width: 30px;
     display: none;
 }
-
 #btnorganization:hover img {
     display: block;
 }
-
 #btnorganization:hover {
     width: 130px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .startcol-1::after {
     content: '';
     width: 10px;
     height: 45%;
-    background: linear-gradient(#4d70b3, #2e09a6);
+    background: linear-gradient(#77d9ed,#007ab6);
     position: absolute;
     left: -40px;
     top: 8px;
 }
-
 .startcol-2 {
     position: relative;
     flex-basis: 60%;
     display: flex;
     align-items: center;
 }
-
 .startcol-2 .startchildrenimage {
     width: 90%;
 }
@@ -169,7 +143,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    background: linear-gradient(#4d70b3, #2e09a6);
+    background: linear-gradient(#77d9ed,#007ab6);
     border-radius: 20px 0 0 20px;
     height: 100%;
     width: 95%;

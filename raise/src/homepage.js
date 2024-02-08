@@ -14,10 +14,20 @@ return (
                     <Link to='./start'><button className="threebtn">Start a Campaign</button></Link>
                     <Link to='./browse'><button className="threebtn">Browse Campaign</button></Link>
                     <br/>
-                    <Link to='https://www.youtube.com/'><button className="threebtn">Blogs</button></Link>
+                    <Link to='./blogpage'><button className="threebtn">Blogs</button></Link>
                 </div>
             </div>
         </div>
+        <div className="aboutcontainer">
+            <div className="cfimage">
+                <img src='/cf.jpg' alt='img'></img>
+            </div>
+            <div className="aboutfund">
+                <h1>What is Crowdfunding?</h1>
+                <p>In its simplest form, Crowdfunding is a practice of giving monetary funds to <br/>overcome specific social, cultural, or economic hurdles individuals face in their<br/> daily lives. It's essentially a way for individuals, groups, or organizations<br/>to pool resources from a crowd of supporters,<br/> often referred to as backers or donors.</p>
+            </div>
+        </div>
+
         <marquee scrolldelay='0'>
         <div className='middle'>
             <h3 className='middleline'>Start your Fundraising journey with us<br/>Now with 0%* fees </h3>

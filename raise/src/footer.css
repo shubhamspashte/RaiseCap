@@ -1,15 +1,18 @@
 .footer{
     background-color: #007AB6;
-    height: 530px;
+    height: 540px;
     padding: '1rem';
 }
 .flogo{
     height:80px;
     width:80px;
 }
+.footerhead{
+    margin-top: 1px;
+}
 
 .s{
-    color:black;
+    color:white;
     font-size:35px;
     display: flex;
     padding-left: 11px;
@@ -27,6 +30,7 @@
 }
 .c{
     margin: 8px;
+    color:white;
 }
 
 hr{
@@ -43,13 +47,14 @@ hr{
     padding: 3px;
 }
 .para{
-    margin:10px;
+    /* margin:10px; */
     padding-left: 20px;
     font-size: 24px; 
     font-weight: bold;
     margin-left: 148px;
     text-align: center;
+    color:white;
 }
 .p{
-    color:black
+    color:white;
 }
