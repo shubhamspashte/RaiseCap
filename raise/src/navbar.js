@@ -34,7 +34,7 @@ return (
                         <Link className='menuoptions' to="./start" onClick={closeMenu}>Start a campaign</Link>
                         <Link className='menuoptions' to="./browse" onClick={closeMenu}>Browse a campaign</Link>
                         <Link className='menuoptions' to="./blogpage" onClick={closeMenu}>Blogs</Link>
-                        <Link className='menuoptions' to="https://www.youtube.com/" onClick={closeMenu}>Profile</Link>
+                        <Link className='menuoptions' to="./profilepage" onClick={closeMenu}>Profile</Link>
                     </div>
                 )}
             </div>

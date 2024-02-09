@@ -1,5 +1,4 @@
 import React from 'react';
-// import './form_style.css'; 
 import './iform.css';
 
 function IFormComponent() {

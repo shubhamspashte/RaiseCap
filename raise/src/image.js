@@ -5,7 +5,8 @@ const Image= () => {
 return (
     <div className='childrenimagecontainer'>
       <img className='childrenimage'src="/children.jpg" alt="Example"/>
-      <div class="textover">Text Over</div>
+      <div className="rhombus"></div>
+      <div class="textover">Your small help make world better</div>
     </div>
 );
 };

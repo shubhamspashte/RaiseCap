@@ -1,14 +1,17 @@
 import React from 'react';
-import './blog.css';
+import './blog.css'; 
+
 const Campaign = ({ title, description, image }) => (
     <div className="campaign">
         <img src={image} alt={title} />
+        <div className="campaign-info">
         <h2>{title}</h2>
         <p>{description}</p>
+        </div>
     </div>
 );
 
-const BlogPage = () => {
+    const BlogPage = () => {
     const successfulCampaigns = [
         {
         title: "Project A",
@@ -20,6 +23,7 @@ const BlogPage = () => {
         description: "Description of Project B",
         image: "projectB.jpg"
         },
+
     ];
 
     return (
@@ -38,4 +42,5 @@ const BlogPage = () => {
         </div>
     );
 };
+
 export default BlogPage;

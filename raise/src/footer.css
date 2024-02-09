@@ -1,19 +1,18 @@
 .footer{
     background-color: #007AB6;
-    height: 540px;
+    height: 100%;
     padding: '1rem';
 }
 .flogo{
-    height:80px;
-    width:80px;
+    height:70px;
+    width:70px;
 }
 .footerhead{
     margin-top: 1px;
 }
-
 .s{
     color:white;
-    font-size:35px;
+    font-size:32px;
     display: flex;
     padding-left: 11px;
     margin-left: 20px;
@@ -29,10 +28,10 @@
     margin-bottom: 0px;
 }
 .c{
-    margin: 8px;
+    margin: 0px;
     color:white;
+    font-size: 28px;
 }
-
 hr{
     border: 0.8px solid black;
 }
@@ -47,11 +46,12 @@ hr{
     padding: 3px;
 }
 .para{
-    /* margin:10px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-left: 20px;
-    font-size: 24px; 
+    font-size: 20px; 
     font-weight: bold;
-    margin-left: 148px;
+    margin-left: 144px;
     text-align: center;
     color:white;
 }

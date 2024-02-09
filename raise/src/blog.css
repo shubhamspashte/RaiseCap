@@ -1,17 +1,21 @@
 .blog-page {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
 }
 
 .campaigns-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
 .campaign {
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     overflow: hidden;
+    flex: 1 1 300px;
 }
 
 .campaign img {
@@ -19,11 +23,15 @@
     height: auto;
 }
 
+.campaign-info {
+    padding: 20px;
+}
+
 .campaign h2 {
-    font-size: 18px;
-    margin: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .campaign p {
-    margin: 10px;
+    font-size: 1rem;
 }

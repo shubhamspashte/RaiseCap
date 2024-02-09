@@ -1,0 +1,33 @@
+.impact-stories {
+    margin-top: 20px;
+}
+
+.impact-story {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.impact-story h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.impact-story p {
+    margin-bottom: 0;
+}
+
+.toggle-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+}

@@ -1,9 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-} */
-
 .startcontainer {
     width: 100%;
     min-height: 100vh;
@@ -12,40 +6,14 @@
     box-sizing: border-box;
     overflow: hidden;
 }
-
 .startnavbar {
     display: flex;
     width: 100%;
     align-items: center;
 }
-
-/* .startmenu-logo {
-    width: 25px;
-    cursor: pointer;
-    display: none;
-} */
-
-/* .startnav {
-    flex: 1;
-    text-align: right;
-} */
-
-/* .startnav ul li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 30px;
-} */
-
-/* .startnav ul li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 14px;
-} */
-
 .startnav ul li a:hover {
     color: #ff5ea2;
 }
-
 .startrow {
     display: flex;
     justify-content: space-between;

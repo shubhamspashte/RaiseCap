@@ -9,6 +9,7 @@ import OFormComponent from './oform';
 import IFormComponent from './iform';
 import BlogPage from './blog';
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
+import ProfilePage from './profile';
 
 function App(){
     return(
@@ -24,6 +25,7 @@ function App(){
                     <Route exact path='OFormComponent' element={<OFormComponent/>}/>
                     <Route exact path='IFormComponent' element={<IFormComponent/>}/>
                     <Route exact path='BlogPage'  element={<BlogPage/>}/>
+                    <Route exact path='ProfilePage' element={<ProfilePage/>}/>
                 </Routes>
                 <Footer/>
             </BrowserRouter>

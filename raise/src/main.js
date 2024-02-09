@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import './main.css';
 import Categories from './categories';
 import Newapp from './grid'
+import ImpactStories from './impact';
 
 const Main = () => {
 
@@ -28,7 +29,10 @@ return (
             </button>
         </div> 
         <Categories/> 
-        <Newapp/>  
+        <Newapp/>
+        <br/>
+        <br/>
+        <ImpactStories/>  
     </div>
 
 )

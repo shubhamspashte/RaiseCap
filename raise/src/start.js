@@ -14,15 +14,6 @@ const Start = () => {
 
     return (
     <div className="startcontainer">
-        {/* // <div className="startnavbar"> */}
-        {/* <nav className='startnav'> */}
-            {/* <ul id="menuList"> */}
-            {/* <li><a href="/" target="_blank">About us</a></li> */}
-            {/* // </ul> */}
-        {/* // </nav> */}
-        {/* <img src="/raise/public/chi.jpg" alt='imgrt' className="startmenu-logo" onClick={toggleMenu} /> */}
-        {/* </div> */}
-
         <div className="startrow">
         <div className="startcol-1">
             <h2>Start Fundraiser</h2>
