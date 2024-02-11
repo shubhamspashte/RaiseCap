@@ -4,15 +4,15 @@ import './grid.css';
 
 function CardData() {
 const rtn = [{
-    docName:'Campaign 1',
+    docName:'Medical',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     docImg: "./img.png"
     }, {
-    docName:'Campaign 2',
+    docName:'Children',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     docImg: "./img.png"
     }, {
-    docName:'Campaign 3',
+    docName:'Food & Hunger',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     docImg: "./img.png"
     },  {
