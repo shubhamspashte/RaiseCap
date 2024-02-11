@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 390px;
+    height: 25vw;
     margin: 0;
     animation: fadeIn 1s ease-out;
 }
@@ -24,7 +24,7 @@
     height: 300px;
     width: 600px;
     border-radius: 16px;
-    background: linear-gradient (to right, #77d9ed,#007ab6);
+    background: linear-gradient(to right, #3a5a97, #7464a9);
     transition: transform 0.3s, box-shadow 0.3s;
     overflow: hidden;
     position: relative;
@@ -32,23 +32,15 @@
     margin: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     transform-origin: center;
-    animation: scaleUp 0.5s ease-in-out;
-}
-
-@keyframes scaleUp {
-    from {
-        transform: scale(0.9);
-    }
-
-    to {
-        transform: scale(1);
-    }
 }
 
 .list:hover {
     transform: translateY(-10px);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
 }
+
+
+
 
 .optionm {
     display: flex;
@@ -80,6 +72,7 @@ h1 {
     margin-bottom: 20px;
     text-align: center;
 }
+
 
 .list::before {
     content: "";

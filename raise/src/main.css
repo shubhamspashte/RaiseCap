@@ -1,31 +1,69 @@
-.bd{
-    background-color:#dcf6f9;
+.bd {
+    background-color: #dcf6f9;
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    height:1800px;
+    height: 1800px;
 }
-.searchBoxStyle{
+
+.searchBoxStyle {
+    position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    padding-top: 90px;
+    border-radius: 20px;
+    background-color: #6eafb6;
+    padding: 15px 20px;
     margin-bottom: 20px;
-    width:560px;
+    margin-top: 20px;
+    box-shadow: 5px 10px 4px rgba(138, 7, 208, 0.1);
+}
+
+.searchBoxStyle input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 500px;
+}
+
+.searchBoxStyle button {
+    background-color: #7353e6;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.searchBoxStyle button:hover {
+    background-color: #83c8de;
+}
+
+.searchBoxStyle button:focus {
+    outline: none;
+}
+
+.searchBoxStyle svg {
+    position: absolute;
+    left: 20px;
+    fill: black;
 }
 .inputStyle {
     padding: 19px;
     border-radius: 38px;
-    width:560px;
-    height:56px;
-    font-size:32.6px;
+    width: 560px;
+    height: 36px;
+    font-size: 32.6px;
 }
-.buttonStyle{
+
+.buttonStyle {
     padding: 33px;
     cursor: pointer;
     background-size: cover;
-    border-radius:5px;
+    border-radius: 5px;
+    background-color: none;
 }
-
